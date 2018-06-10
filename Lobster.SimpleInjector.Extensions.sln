@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lobster.SimpleInjector.Extensions", "Lobster.SimpleInjector.Extensions\Lobster.SimpleInjector.Extensions.csproj", "{D8F62D1D-CD4A-423E-A2E9-FAD3C04B1BF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lobster.SimpleInjector.Extensions", "Lobster.SimpleInjector.Extensions\Lobster.SimpleInjector.Extensions.csproj", "{D8F62D1D-CD4A-423E-A2E9-FAD3C04B1BF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lobster.SimpleInjector.Extensions.Sample", "Lobster.SimpleInjector.Extensions.Sample\Lobster.SimpleInjector.Extensions.Sample.csproj", "{530EEEA3-47E9-422D-AD7E-209A12410EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lobster.SimpleInjector.Extensions.Sample", "Lobster.SimpleInjector.Extensions.Sample\Lobster.SimpleInjector.Extensions.Sample.csproj", "{530EEEA3-47E9-422D-AD7E-209A12410EF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9FE2967E-FA31-4493-B7B2-B926295857AC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
