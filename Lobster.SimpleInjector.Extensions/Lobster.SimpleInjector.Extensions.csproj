@@ -9,6 +9,7 @@
     <PackageProjectUrl>https://github.com/lobster2012-user/SimpleInjector.Extensions</PackageProjectUrl>
     <Authors>lobster2012-user</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RootNamespace>Lobster.SimpleInjector</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

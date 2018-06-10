@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using SimpleInjector;
 
-namespace Lobster.SimpleInjector.Extensions
+namespace Lobster.SimpleInjector
 {
     public class ConsumerRegisterObject<TConsumer>
     {
