@@ -1,7 +1,9 @@
 # SimpleInjector.Extensions
 SimpleInjector.Extensions
 
-[![NuGet]](https://www.nuget.org/packages/Lobster.SimpleInjector.Extensions/)
+[![NuGet](https://img.shields.io/nuget/v/Lobster.SimpleInjector.Extensions.svg)](https://www.nuget.org/packages/Lobster.SimpleInjector.Extensions)
+
+
 
 ```csharp
 container.ForConsumer<AConsumer>()
