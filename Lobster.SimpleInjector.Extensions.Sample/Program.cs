@@ -34,7 +34,7 @@ namespace Lobster.SimpleInjector.Extensions.Sample
     }
     public interface AInterface2
     {
-
+         
     }
     public class AImplementation2 : AInterface2
     {
