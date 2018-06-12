@@ -1,2 +1,2 @@
 language: csharp
-solution: SimpleInjector.Extensions.sln
+solution: Lobster.SimpleInjector.Extensions/SimpleInjector.Extensions.sln
