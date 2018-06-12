@@ -16,7 +16,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RootNamespace>Lobster.SimpleInjector</RootNamespace>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
     <PackageTags>simpleinjector;lobster;di;ioc;dependencyinjection</PackageTags>
   </PropertyGroup>
