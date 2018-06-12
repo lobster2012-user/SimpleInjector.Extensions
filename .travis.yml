@@ -1,2 +1,9 @@
 language: csharp
-solution: Lobster.SimpleInjector.Extensions/SimpleInjector.Extensions.sln
+solution: Lobster.SimpleInjector.Extensions.sln
+mono: none
+dotnet: 2.0.0
+before_script:
+  - dotnet restore
+script:  
+  - dotnet build
+
