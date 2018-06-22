@@ -1,5 +1,5 @@
 # SimpleInjector.Extensions
-SimpleInjector.Extensions
+Fluent extensions for SimpleInjector ( pull requests accepted )
 
 [![NuGet](https://img.shields.io/nuget/v/Lobster.SimpleInjector.Extensions.svg)](https://www.nuget.org/packages/Lobster.SimpleInjector.Extensions)
 [![NuGet](https://img.shields.io/nuget/dt/Lobster.SimpleInjector.Extensions.svg)](https://www.nuget.org/packages/Lobster.SimpleInjector.Extensions)
