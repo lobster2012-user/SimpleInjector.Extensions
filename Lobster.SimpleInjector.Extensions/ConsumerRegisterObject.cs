@@ -24,23 +24,25 @@ namespace Lobster.SimpleInjector
             Container = container ?? throw new ArgumentNullException(nameof(container));
         }
 
-        public void Register<TInterface, TImplementation>()
+        public Container Register<TInterface, TImplementation>()
             where TInterface : class
             where TImplementation : class, TInterface
         {
             Container.RegisterConditional<TInterface, TImplementation>(Predicate);
+            return Container;
         }
-        public void RegisterSingleton<TInterface, TImplementation>()
+        public Container RegisterSingleton<TInterface, TImplementation>()
             where TInterface : class
             where TImplementation : class, TInterface
         {
-            Register<TInterface, TImplementation>(Lifestyle.Singleton);
+            return Register<TInterface, TImplementation>(Lifestyle.Singleton);
         }
-        public void Register<TInterface, TImplementation>(Lifestyle lifeStyle)
+        public Container Register<TInterface, TImplementation>(Lifestyle lifeStyle)
             where TInterface : class
             where TImplementation : class, TInterface
         {
             Container.RegisterConditional<TInterface, TImplementation>(lifeStyle, Predicate);
+            return Container;
         }
     }
 }
